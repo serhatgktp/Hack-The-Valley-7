@@ -13,4 +13,7 @@ For setup instructions, please see the `frontend` folder
 
 ![Landing page](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/1.png)
 ![Full page](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/4.png)
+
+``/* Comes with dark mode! */``
+
 ![Dark mode](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/5.png)
