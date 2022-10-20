@@ -12,5 +12,4 @@ For setup instructions, please see the `frontend` folder
 `/* Screenshots */`
 
 ![Landing page](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/1.png)
-![Top of page](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/2.png)
-![Scrolling down](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/3.png)
+![Full Page](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/4.png)
