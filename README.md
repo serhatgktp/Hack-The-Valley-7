@@ -4,10 +4,12 @@ Parliament hearings are lengthy and tough to read, yet their contents determine 
 
 Hack The Valley 7 Submission
 
-For setup instructions, please see the frontend folder
+For setup instructions, please see the `frontend` folder
 
 <img width="820" alt="vectre-image" src="https://cdn.discordapp.com/attachments/1030527530639302741/1031203244766150667/5.png">
 <img width="820" alt="vectre-image" src="https://cdn.discordapp.com/attachments/1030527530639302741/1031203263615352852/2323.png">
+
+`/* Screenshots */`
 
 ![Landing page](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/1.png)
 ![Top of page](https://github.com/serhatgktp/Hack-The-Valley-7/blob/main/screenshots/2.png)
