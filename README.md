@@ -2,7 +2,7 @@
 
 Parliament hearings are lengthy and tough to read, yet their contents determine our future. co:ngress provides an easy way for every Canadian to stay informed while sipping their morning coffee.
 
-Hack The Valley 7 Submission
+Hack The Valley 7 Submission: https://devpost.com/software/co-ngress
 
 For setup instructions, please see the `frontend` folder
 
