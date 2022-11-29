@@ -140,9 +140,10 @@ def load_as_df(config, table_name, query=None):
         dfs += [df]
     if len(dfs) > 0:
         df = pd.concat(dfs, axis=0)
+        return df
     else:
-        raise Exception('No data was found in ' + table_name + '!')
-    return df
+        # raise Exception('No data was found in ' + table_name + '!')
+        return None
 
 def log(func, *args, config=None, log_table=None, desc=None, account_number=None, batch_id=None, time_limit=None):
     assert(type(config) == dict)
