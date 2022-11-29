@@ -2,9 +2,28 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
-import sys
+import configparser
 
 def get_outstanding_transcripts_for_session(session):
+
+    # Database Settings
+    config = configparser.ConfigParser()
+    config.read('db_config.ini')
+
+    host = config['mysql']['host']
+    user = config['mysql']['user']
+    password = config['mysql']['password']
+    db = config['mysql']['db']
+
+    config = {
+        'host': host,
+        'user': user,
+        'password': password,
+        'db': db
+    }
+
+
+
     page_size = 250
     url = f"https://sencanada.ca/en/Committees/NFFN/MeetingSchedule/#?filterSession={session}&CommitteeID=1013&PageSize={page_size}&SortOrder=DATEDESC"
 
