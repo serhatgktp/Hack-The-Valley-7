@@ -91,3 +91,6 @@ dmypy.json
 
 # Selenium driver
 chromedriver.exe
+
+# Database config file
+db_config.ini
