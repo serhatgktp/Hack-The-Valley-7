@@ -1,11 +1,10 @@
-from cgitb import text
 import cohere
 
 # Paste your API key here. Remember to not share it publicly 
 api_key = 'CaQKrQ4nVgxhALvBmN1OlRmBilGhUs7iIiMBV8Q5'
 co = cohere.Client(api_key)
 
-def GenerateSummary(text):
+def generate_summary(text):
     paraphrasing = '''--Is Wordle getting tougher to solve? Players seem to be convinced that the game has gotten harder in recent weeks ever since The New York Times bought it from developer Josh Wardle in late January. The Times has come forward and shared that this likely isn’t the case. That said, the NYT did mess with the back end code a bit, removing some offensive and sexual language, as well as some obscure words There is a viral thread claiming that a confirmation bias was at play. One Twitter user went so far as to claim the game has gone to “the dusty section of the dictionary” to find its latest words--.
     TLDR: Wordle has not gotten more difficult to solve.
 
@@ -41,3 +40,12 @@ def GenerateSummary(text):
     results.strip()
 
     return results
+
+def get_summary_of_samples(samples):
+    summaries = []
+    for sample in samples:
+        summaries.append(generate_summary(sample))
+    summary = " ".join(summaries)
+    summaries = summary.split()
+    summary = " ".join(summaries)
+    return summary
