@@ -94,3 +94,5 @@ chromedriver.exe
 
 # Database config file
 db_config.ini
+
+colab*
