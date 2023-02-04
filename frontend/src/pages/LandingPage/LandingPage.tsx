@@ -43,9 +43,8 @@ export default function CallToActionWithAnnotation() {
               </Text>
             </Heading>
             <Text color={"gray.500"}>
-              Bite-size snippets of the most recent legislative matters, to keep
-              you up to date with the information that matters. Get a better
-              understanding of the legal system in Canada and more.
+              Bite-size snippets of the most recent hearings from the Canadian house of commons,
+              to keep you up to date with the information that matters.
             </Text>
             <Stack
               direction={"column"}
